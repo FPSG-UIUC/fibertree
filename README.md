@@ -4,7 +4,14 @@ Hierarchical Fibertree-based Tensor Abstraction
 An emulator for the hierarchical fibertree abstraction for
 tensors. For a description of the concepts and some some designs
 rendered in a simplified version of this system see sections 8.2 and
-8.3 of the book "Efficient Processing of Deep Neural Networks" [1]. 
+8.3 of the book "Efficient Processing of Deep Neural Networks" [1].
+
+Branch Note
+===========
+
+This branch (`metrics`) is the branch used in the artifact for the MICRO '24
+paper TeAAL. You can find the paper [here](https://arxiv.org/abs/2304.07931)
+and the artifact [here](https://github.com/FPSG-UIUC/micro23-teaal-artifact).
 
 Install
 =======
@@ -31,7 +38,7 @@ To install with Cython (`fibertree.core` in Cython, remaining files in Python):
 Explore Jupyter Notebooks
 =========================
 
-Clone [fibertree notebooks](https://github.com/Fibertree-Project/fibertree-notebooks) 
+Clone [fibertree notebooks](https://github.com/Fibertree-Project/fibertree-notebooks)
 for some example fibertree-based algorithms in Jupypter notebooks.
 
 
